@@ -1,0 +1,372 @@
+2021-03-23T01:50:09: PM2 log: ===============================================================================
+2021-03-23T01:50:09: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-03-23T01:50:09: PM2 log: Time                 : Tue Mar 23 2021 01:50:09 GMT-0300 (Brasilia Standard Time)
+2021-03-23T01:50:09: PM2 log: PM2 version          : 4.5.5
+2021-03-23T01:50:09: PM2 log: Node.js version      : 14.15.4
+2021-03-23T01:50:09: PM2 log: Current arch         : arm
+2021-03-23T01:50:09: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2021-03-23T01:50:09: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2021-03-23T01:50:09: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2021-03-23T01:50:09: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2021-03-23T01:50:09: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2021-03-23T01:50:09: PM2 log: Worker Interval      : 30000
+2021-03-23T01:50:09: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2021-03-23T01:50:09: PM2 log: Concurrent actions   : 2
+2021-03-23T01:50:09: PM2 log: SIGTERM timeout      : 1600
+2021-03-23T01:50:09: PM2 log: ===============================================================================
+2021-03-23T01:50:09: PM2 log: App [index:0] starting in -fork mode-
+2021-03-23T01:50:09: PM2 log: App [index:0] online
+2021-03-23T01:50:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:09: PM2 error: Error while getting CLK_TCK Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at ChildProcess.exithandler (child_process.js:308:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:529:15)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Socket.<anonymous> (internal/child_process.js:439:11)
+    at Socket.emit (events.js:315:20)
+    at Socket.EventEmitter.emit (domain.js:529:15)
+    at Pipe.<anonymous> (net.js:673:12)
+    at Pipe.callbackTrampoline (internal/async_hooks.js:131:14) {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2021-03-23T01:50:10: PM2 error: Error while getting PAGESIZE Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at ChildProcess.exithandler (child_process.js:308:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:529:15)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Socket.<anonymous> (internal/child_process.js:439:11)
+    at Socket.emit (events.js:315:20)
+    at Socket.EventEmitter.emit (domain.js:529:15)
+    at Pipe.<anonymous> (net.js:673:12)
+    at Pipe.callbackTrampoline (internal/async_hooks.js:131:14) {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2021-03-23T01:50:30: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:32: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:33: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:34: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:35: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:36: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:37: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:38: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:40: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:41: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:43: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:44: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:45: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:48: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:48: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:49: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:50: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:53: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:54: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:55: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:56: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:57: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:58: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:50:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:00: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:01: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:02: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:03: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:04: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:04: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:05: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:06: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:07: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:08: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:11: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:13: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:14: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:15: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:18: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:19: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:20: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:23: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:24: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:25: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:26: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:27: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:28: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:30: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:31: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:32: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:33: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:35: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:36: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:37: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:37: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:38: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:40: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:41: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:43: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:44: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:45: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:48: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:49: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:50: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:53: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:54: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:55: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:56: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:57: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:58: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:51:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:01: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:02: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:02: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:03: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:04: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:05: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:06: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:07: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:08: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:11: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:13: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:14: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:15: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:15: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:18: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:19: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:20: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:23: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:24: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:25: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:26: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:27: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:28: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:30: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:30: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:31: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:32: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:33: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:34: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:35: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:36: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:37: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:38: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:40: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:41: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:43: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:44: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:45: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:48: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:49: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:50: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:53: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:54: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:55: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:56: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:57: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:58: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:52:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:00: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:01: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:02: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:03: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:04: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:05: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:06: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:07: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:11: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:13: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:14: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:15: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:18: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:19: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:20: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:23: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:24: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:25: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:26: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:27: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:28: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:30: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:31: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:32: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:33: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:34: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:35: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:36: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:37: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:38: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:40: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:41: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:43: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:44: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:44: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:45: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:48: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:49: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:50: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:53: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:54: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:55: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:56: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:57: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:58: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:53:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:00: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:01: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:02: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:03: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:04: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:05: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:06: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:07: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:08: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:11: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:13: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:14: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:15: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:15: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:18: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:19: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:20: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:23: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:24: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:25: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:26: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:26: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:27: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:28: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:30: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:31: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:32: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:33: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:34: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:35: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:36: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:37: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:40: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:41: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:43: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:44: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:45: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:48: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:49: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:50: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:53: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:54: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:55: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:56: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:57: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:58: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:54:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:00: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:01: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:02: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:03: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:04: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:05: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:06: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:07: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:08: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:11: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:11: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:13: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:14: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:15: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:18: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:19: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:20: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:23: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:24: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:25: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:26: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:27: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:28: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2021-03-23T01:55:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
